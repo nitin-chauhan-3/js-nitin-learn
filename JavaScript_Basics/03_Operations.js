@@ -9,9 +9,20 @@ let negnum = -num;
 // console.log(3%2);
 // console.log(2**4);
 
-console.log(+'');
+// console.log(+'');
 
 let score = 100;
-score++;
+// score++; postfix 
+// ++score; prefix
+// console.log(score);
 
-console.log(score);
+let x = 7;
+let y = x++
+console.log(y);
+console.log(x);
+
+let a = 3n
+let b = ++a
+console.log(a);
+console.log(b);
+
