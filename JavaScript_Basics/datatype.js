@@ -33,3 +33,31 @@ console.log(typeof myObj);
 console.log(typeof heros);
 console.log(typeof id);
 console.log(typeof myfunction);
+
+
+// -------------------------------------------------------------------Memory-----------------------------------------------------------------
+
+// Stack (Primitive), Heap (Non - Primitive)
+// Stack 
+let myName = "nitin"
+
+let anotherName= myName
+anotherName = "nitesh"
+
+// console.log(myName);
+// console.log(anotherName);
+
+// Heap 
+
+let user1 = {
+    RollNo: 17,
+    Branch: "CSE"
+}
+
+let user2 = user1 
+
+user2.RollNo = 44 
+user2.Branch = "ME"
+
+console.log(user1);
+console.log(user2);
