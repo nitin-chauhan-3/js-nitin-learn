@@ -12,5 +12,8 @@ const oneNum = new Number(99233.544499)
 
 const crores = 1000000000
 
-console.log(crores.toLocaleString('en-IN'));
-console.log(crores.toLocaleString());
+//console.log(crores.toLocaleString('en-IN'));
+//console.log(crores.toLocaleString());
+
+
+// ++++++++++++++++++++++++++ maths ++++++++++++++++++++++++++
